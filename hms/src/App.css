@@ -1,0 +1,36 @@
+#headImage{
+    display: flex;
+}
+#WelcomeNote{
+    margin-top: 18%;
+    font-family: Garamond;
+}
+#Sidenave{
+    width: 330px;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(50, 45, 37);
+}
+#navlinks{
+    color: white;
+    margin-top: 30%;
+    margin-left: 10%;
+
+}
+#navelist{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    list-style-type: none;
+    color: white;
+}
+#Dashboard{
+ 
+}
+#HomeLogo{
+    width: 160px;
+}
+#Dashboardlogo{
+    margin-left: 60px;
+    
+}
