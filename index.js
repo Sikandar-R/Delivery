@@ -104,6 +104,7 @@ app.put("/doctors/:id", (req, res) => {
     addDoctors.findById(id, (err, user) => {
       if (err) {
         console.log("api failed");
+        
       } else {
         user.title = req.body.title;
         user.desc = req.body.desc;
